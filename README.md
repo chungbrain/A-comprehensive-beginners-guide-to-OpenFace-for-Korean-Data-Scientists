@@ -1,4 +1,5 @@
-# OpenFace-Easy to Understand in Korean beginner
+# OpenFace-A comprehensive beginners guide to OpenFace for Korean Data Scientists
+  OpenFace-초보자를 위한 친절한 한글 설명서
 
 OpenFace 는 open source 기반 얼굴표정 움직임 분석 툴킷 이다. 
 본 논문을 한글로 정리하는 이유는 한국사람들에게 OpenFace Project를 쉽게 빠르게 이해하고 알리기 위함이다. 이번 정리는 단순히 논문을 전달하는 일뿐만 아니라 필자의 의견을 comment로 남기려고 한다.
