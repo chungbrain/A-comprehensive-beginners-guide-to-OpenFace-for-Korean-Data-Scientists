@@ -1,10 +1,10 @@
 # OpenFace-Easy to Understand in Korean beginner
 
-'OpenFace 는 open source 기반 얼굴표정 움직임 분석 툴킷 이다. 
+OpenFace 는 open source 기반 얼굴표정 움직임 분석 툴킷 이다. 
 본 논문을 한글로 정리하는 이유는 한국사람들에게 OpenFace Project를 쉽게 빠르게 이해하고 알리기 위함이다. 이번 정리는 단순히 논문을 전달하는 일뿐만 아니라 필자의 의견을 comment로 남기려고 한다.
 간단하게 논문을 소개하자면 저자는 Tadas이고 2018년 현재 CMU 에서 post-doc를 하고 있다. OpenFace는 Cambridge 대학에서 진행한 논문으로 보인다. 본 논문은 2016년 WACV Conference paper로 발표되었고 2018년 05월 현재까지 222회가 넘게 인용되었다. (IEEE Winter Conference on Applications of Computer Vision, Lace Placid, NY, March 2016) 비록 conference paper이지만 이 분야에서 높은 영향력이 있는 발표라고 말할 수 있겠다.
 사실 2016년에 OpenFace 논문이 발표되기 이전에 Tadas는 2013~2015년동안 3개의 논문이 발표 되었다. 3개의 논문은 OpenFace 의 중요 요소들(Facial landmark detection and tracking, Eye gaze tracking, Facial Action Unit detection)로써 기반을 다진다. 
-그럼 하나씩 논문을 살펴보자'
+그럼 하나씩 논문을 살펴보자. 원문은 첨부되었다. 
 
 ## Abstract
 지난 수년 동안 얼굴표정행동(facial behavior)을 자동으로 분석하고 이해하는 것에 대한 관심이 증가하고 있다. Openface는 computer vision과 machine learning 관련 연구자들, affective computing 커뮤니티, 그리고 interactive 응용프로그램에 관심이 있는 사람들을 위한 툴이다. 
@@ -35,6 +35,7 @@
 
 ### 3.1 Facial landmark detection and tracking
 OpenFace는 Facial landmark detection과 tracking을 위해서 Conditional Local Neural Fields (CLNF)를 제안하고 있다. CLNF는 Constrained Local Model(CLM: 은 advanced Patch expert와 optimization function로 구성)의 instance다. Point distribution model 은 landmark shape variation을 capture한다. Patch experts 가 local appearance variation을 capture하는 역할을 한다. 
+
 *comment
 사실 OpenCV기반으로 face detection (viola johns 방법)을 할 때 매 frame마다 얼굴을 추출하는 위치에 variation이 있기 때문에 segmented face image에 대한 위치의 변화가 불가피 했다. 필자는 segmented image로부터 얻는 face color estimation 값이 변화되었다. Kalman filter를 적용해서 error를 피할 수 없었다.
 
@@ -79,5 +80,6 @@ OpenFace를 활용하는 3가지 방법이 있다. (1) GUI 로 활용하는 방�
 ## 6. Conclusion
 본 논문은 처음으로 fully 공개된 Open source 기반 real-time facial behavior 분석 시스템이다.
 OpenFace는 computer vision, machine learning, and Affective computing등에 활용될 수 있는 유용한 tool이다. 
+
 *comment 
 OpenFace는 좋은 툴이다 저자의 의견에 공감한다. 노고에 박수를 보내고 Tadas에게 감사의 마음을 전하고 싶다. 끝!
