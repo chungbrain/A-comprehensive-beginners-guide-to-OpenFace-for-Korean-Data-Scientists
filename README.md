@@ -1,6 +1,7 @@
 # OpenFace-A comprehensive beginners guide to OpenFace for Korean Data Scientists
   OpenFace-초보자를 위한 친절한 한글 설명서
 
+<img src="https://github.com/chungbrain/A-comprehensive-beginners-guide-to-OpenFace-for-Korean-Data-Scientists/blob/master/2018-05-12_16-14-14.gif" width="720"> 
 OpenFace 는 open source 기반 얼굴표정 움직임 분석 툴킷 이다. 
 본 논문을 한글로 정리하는 이유는 한국사람들에게 OpenFace Project를 쉽게 빠르게 이해하고 알리기 위함이다. 이번 정리는 단순히 논문을 전달하는 일뿐만 아니라 필자의 의견을 comment로 남기려고 한다.
 간단하게 논문을 소개하자면 저자는 Tadas이고 2018년 현재 CMU 에서 post-doc를 하고 있다. OpenFace는 Cambridge 대학에서 진행한 논문으로 보인다. 본 논문은 2016년 WACV Conference paper로 발표되었고 2018년 05월 현재까지 222회가 넘게 인용되었다. (IEEE Winter Conference on Applications of Computer Vision, Lace Placid, NY, March 2016) 비록 conference paper이지만 이 분야에서 높은 영향력이 있는 발표라고 말할 수 있겠다.
