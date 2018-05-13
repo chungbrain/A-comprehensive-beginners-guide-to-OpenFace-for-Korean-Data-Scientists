@@ -87,3 +87,11 @@ OpenFace는 computer vision, machine learning, and Affective computing등에 활
 
 *comment 
 OpenFace는 좋은 툴이다 저자의 의견에 공감한다. 노고에 박수를 보내고 Tadas에게 감사의 마음을 전하고 싶다. 끝!
+
+## 부록 1
+아래 링크를 따라가면 더욱 정리가 잘된 글을 볼수 있다. 2번 3번 반복해서 읽을 만하다. 강추
+https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
+
+## 부록 2
+아래 Paper는 google에서 CNN을 이용한 2015 publish 했다. 본 논문의 주목할 점은 CNN을 기반으로 얼굴에서 128 가지의 embedding 을 활용해서 face recognition performance를 높였다는 것 이다.
+https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf
