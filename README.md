@@ -1,7 +1,7 @@
 # OpenFace-A comprehensive beginners guide to OpenFace for Korean Data Scientists
   OpenFace-초보자를 위한 친절한 한글 설명서
 
-The first aurthor if this paper is Tadas Baltrusaitis.(https://github.com/TadasBaltrusaitis)
+The first aurthor of this paper is Tadas Baltrusaitis.(https://github.com/TadasBaltrusaitis)
 
 <img src="https://github.com/chungbrain/A-comprehensive-beginners-guide-to-OpenFace-for-Korean-Data-Scientists/blob/master/2018-05-12_16-14-14.gif" width="720"> 
 OpenFace 는 open source 기반 얼굴표정 움직임 분석 툴킷 이다. 
